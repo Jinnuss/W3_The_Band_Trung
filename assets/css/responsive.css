@@ -1,0 +1,108 @@
+@media only screen and (max-width: 46.1875em){
+    .s-col-ful{
+        width: 100% !important;
+    }
+    .s-full-width{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    #header .mobilemenu-btn .mobilemenu-icon{
+        display: block;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .search-button{
+        display: none;
+    }
+
+    #nav>li {
+        display: block;
+    }
+    #nav>li:first-child{
+        display: inline-block;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav{
+        display: block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #content .team-list{
+        padding-top: 32px;
+    }
+    #content .team-list .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .person{
+        padding: 0px;
+    }
+    #content .member-avt{
+        width: 60%;
+    }
+
+    .contact-form{
+        margin-top: 32px;
+    }
+    .place-buy-bt{
+        
+    }
+    
+    
+
+    
+
+
+}
+
+
+@media only screen and (max-width: 63.9375em){
+    .place-buy-btn{
+        padding: 15px 16px ;
+    }
+    .contact-form .form-control{
+        padding: 15px;
+    }
+    .contact-info{
+        line-height: 2;
+    }
+    
+    #footer .socials-list{
+        font-size: 24px;
+    }
+    #footer .socials-list a{
+        margin: 0 8px;
+    }
+    #footer .copyright a{
+        padding: 12px 0;
+    }
+    #nav .subnav a{
+        padding: 5px 12px;
+    }
+
+}
+
+/* tablet: 740px<= width< 1024px */
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+}
+
+/*
+ pc: width>1024px 
+
+@media only screen and (min-width: 64em){
+    .pc{
+        display: block;
+    }
+} */
